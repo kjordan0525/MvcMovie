@@ -27,6 +27,7 @@ namespace MvcMovie.Models
                         Title = "Mad Max: Fury Road",
                         ReleaseDate = DateTime.Parse("2015-5-15"),
                         Genre = "Action",
+                        Rating = "R",
                         Price = 9.99M
                     },
 
@@ -35,6 +36,7 @@ namespace MvcMovie.Models
                         Title = "The Thing",
                         ReleaseDate = DateTime.Parse("1982-7-5"),
                         Genre = "Horror",
+                        Rating = "R",
                         Price = 5.99M
                     },
 
@@ -43,6 +45,7 @@ namespace MvcMovie.Models
                         Title = "The Incredibles",
                         ReleaseDate = DateTime.Parse("2004-11-5"),
                         Genre = "Family",
+                        Rating = "PG",
                         Price = 6.99M
                     },
 
@@ -51,6 +54,7 @@ namespace MvcMovie.Models
                         Title = "When Harry Met Sally",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Genre = "Romantic Comedy",
+                        Rating = "PG",
                         Price = 4.99M
                     }
 
